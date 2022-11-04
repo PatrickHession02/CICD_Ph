@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+=======
+        <module name="CICD_Ph-master" />
+>>>>>>> bced571 (Added scanner)
         <module name="CICD_Ph" />
       </profile>
     </annotationProcessing>
