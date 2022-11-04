@@ -4,7 +4,28 @@ import java.util.Scanner;
 
 public class Passenger {
   Scanner input = new Scanner(System.in);
-  String Title = input.next();
 
+  public String Title(){
+    String Title = input.next();
+    return Title;
+  }
+
+  public String Name(){
+    String Name = input.next();
+    return Name;
+  }
+
+  public String ID(){
+    String ID = input.next();
+    return ID;
+  }
+  public String Phone(){
+    String Phone  = input.next();
+    return Phone;
+  }
+  public String Age(){
+    String Age = input.next();
+    return Age;
+  }
 
 }
