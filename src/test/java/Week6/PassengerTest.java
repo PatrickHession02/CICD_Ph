@@ -11,11 +11,20 @@ import static org.junit.jupiter.api.Assertions.*;
 class PassengerTest {
 
     @BeforeEach
-    void setUp() {myScan = new Scanner();}
+    Scanner myScan = new Scanner(System.in);
 @Test
 void testTitle() {}
 
     @Test
+void testName(){}
+
+    @Test
+    void testNumber(){}
+            @Test
+            void testID(){}
+
+                    @Test
+                    void testAge(){}
 
     @AfterEach
     void tearDown() {
