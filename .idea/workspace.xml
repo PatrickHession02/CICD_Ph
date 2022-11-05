@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d37ea571-1555-40a2-aa85-aab6fcd77b9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Week6/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Week6/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week6/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Week6/Passenger.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="JUnit.PassengerTest">
+  <component name="RunManager" selected="JUnit.PassengerTest.testAgeFailure">
     <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week5" />
       <extension name="coverage">
@@ -61,6 +63,54 @@
       <option name="PACKAGE_NAME" value="Week6" />
       <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testAgeFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testAgeFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testIDFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testIDFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testNameFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testNameFailure" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,54 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassengerTest.testTitleMr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="week5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Week6" />
-      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
-      <option name="METHOD_NAME" value="testTitleMr" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassengerTest.testTitleMrs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="week5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Week6" />
-      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
-      <option name="METHOD_NAME" value="testTitleMrs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PassengerTest.testTitleMs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="week5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Week6" />
-      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
-      <option name="METHOD_NAME" value="testTitleMs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PassengerTest" />
-        <item itemvalue="JUnit.PassengerTest.testTitleMr" />
-        <item itemvalue="JUnit.PassengerTest.testTitleMrs" />
-        <item itemvalue="JUnit.PassengerTest.testTitleMs" />
+        <item itemvalue="JUnit.PassengerTest.testAgeFailure" />
+        <item itemvalue="JUnit.PassengerTest.testIDFailure" />
+        <item itemvalue="JUnit.PassengerTest.testNameFailure" />
         <item itemvalue="JUnit.PassengerTest.testTitleFail" />
+        <item itemvalue="JUnit.PassengerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667684585230</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added comments">
+      <created>1667686017917</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667686017917</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
