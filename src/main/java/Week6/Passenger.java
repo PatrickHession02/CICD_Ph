@@ -36,10 +36,53 @@ public class Passenger {
     public String getName() {return Name;}
 
 
+    public void setName(String Name){
+     if(Name.length()>3){
+         this.Name = Name;
+     }
+     else{
+         throw new IllegalArgumentException("Entered invalid Name");
+     }
+    }
 
+    public long getID(){
+     return ID;
+    }
 
+    public void setID(long ID){
+     if(String.valueOf(ID).length() >= 10){
+         this.ID = ID;
+        }
+     else{
+         throw new IllegalArgumentException("Invalid ID entered");
+     }
+    }
 
+    public long getphoneNum(){
+        return phoneNum;
+    }
 
+    public void setphoneNum(long phoneNum){
+        if(String.valueOf(phoneNum).length() >= 7){
+            this.phoneNum = phoneNum;
+        }
+        else{
+            throw new IllegalArgumentException("Invalid Phone Number");
+        }
+    }
+
+    public int getphoneNum(){
+        return phoneNum;
+    }
+
+    public void setphoneNum(long phoneNum){
+        if(String.valueOf(phoneNum).length() >= 7){
+            this.phoneNum = phoneNum;
+        }
+        else{
+            throw new IllegalArgumentException("Invalid Phone Number");
+        }
+    }
 
 
 
