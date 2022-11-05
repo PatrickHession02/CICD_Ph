@@ -9,6 +9,7 @@ AIM: Create a class that can b e populated with other data from team and test it
 
 
 public class Passenger {
+    //variables
     String Title;
     String Name;
     int Age;
@@ -18,7 +19,7 @@ public class Passenger {
 
     public Passenger(String Title, String Name, int Age, long ID, long Phone)   //constructor
     {
-        //Variables
+        
         setTitle(Title);
         setName(Name);
         setAge(Age);
