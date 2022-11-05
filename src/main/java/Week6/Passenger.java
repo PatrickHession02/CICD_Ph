@@ -18,7 +18,7 @@ public class Passenger {
         setName(Name);
         setAge(Age);
         setID(ID);
-        setPhone(phoneNum);
+        setPhoneNum(phoneNum);
 
     }
 
