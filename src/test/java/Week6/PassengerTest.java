@@ -9,31 +9,39 @@ import java.util.Scanner;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PassengerTest {
-    Passenger scanner;
+
     @BeforeEach
    void setup() {
-     scanner = new Passenger();
     }
+
 @Test
 void testTitleMr() {
-    assertEquals("Mr", scanner.Title());
+    Passenger customer = new Passenger("Mr","Patrick",20,909090292921, 087123277);
+    assertEquals("Mr", customer.getTitle());
 }
 @Test
 void testTitleMrs() {
-        assertEquals("Mrs", scanner.Title());
+    Passenger customer = new Passenger("Mr","Patrick",20,909090292921, 087123277);
+    assertEquals("Mrs", customer.getTitle());
     }
 
     @Test
     void testTitleMs() {
-        assertEquals("Ms", scanner.Title());
+        Passenger customer = new Passenger("Mr","Patrick",20,909090292921, 087123277);
+        assertEquals("Ms", customer.getTitle());
+    }
+
+    @Test
+    void testTitleFail() {
+        Passenger customer = new Passenger("Ma","Patrick",20,909090292921, 087123277);
+        assertEquals("Entered invalid title.", exMessage.getMessage());
     }
 
 
-
-
     @Test
-void testName(){
-        assertEquals(" ");
+void testNameSuccess(){
+        Passenger customer = new Passenger("Mr","Patrick",20,909090292921, 087123277)
+       assertEquals("Patrick", customer.getName());
     }
 
     @Test
