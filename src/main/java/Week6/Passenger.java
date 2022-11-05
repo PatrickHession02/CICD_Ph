@@ -1,5 +1,11 @@
 package Week6;
-
+/*
+Name: Patrick Hession
+ID Number: G00394619
+Date: 27/10/22
+Project: Passenger
+AIM: Create a class that can b e populated with other data from team and test it
+ */
 
 
 public class Passenger {
@@ -12,6 +18,7 @@ public class Passenger {
 
     public Passenger(String Title, String Name, int Age, long ID, long Phone)   //constructor
     {
+        //Variables
         setTitle(Title);
         setName(Name);
         setAge(Age);
