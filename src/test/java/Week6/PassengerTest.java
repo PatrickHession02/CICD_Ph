@@ -21,13 +21,13 @@ void testTitleMr() {
 }
 @Test
 void testTitleMrs() {
-    Passenger customer = new Passenger("Mr","Patrick",20,1703021289, 1892092);
+    Passenger customer = new Passenger("Mrs","Patrick",20,1703021289, 1892092);
     assertEquals("Mrs", customer.getTitle());
     }
 
     @Test
     void testTitleMs() {
-        Passenger customer = new Passenger("Mr","Patrick",20,1703021289, 1892092);
+        Passenger customer = new Passenger("Ms","Patrick",20,1703021289, 1892092);
         assertEquals("Ms", customer.getTitle());
     }
 
@@ -45,7 +45,7 @@ void testNameSuccess(){
     }
     @Test
     void testNameFailure(){
-        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",20,1703021289, 1892092);});
+        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Ah",20,1703021289, 1892092);});
         assertEquals("Entered invalid Name", Message.getMessage());
     }
     @Test
@@ -66,18 +66,18 @@ void testNameSuccess(){
     }
     @Test
     void testPhoneNumFailure(){
-        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",20,1703, 12);});
+        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",20,1703021289, 12);});
         assertEquals("Invalid Phone Number", Message.getMessage());
     }
 
     @Test
     void testAgeSuccess(){
-        Passenger customer = new Passenger("Mr","Patrick",20,1892092, 1892092);
+        Passenger customer = new Passenger("Mr","Patrick",20,1703021289, 1892092);
         assertEquals(20, customer.getAge());
     }
   @Test
     void testAgeFailure(){
-        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",8,1892092, 1892092);});
+        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",8,1703021289, 1892092);});
         assertEquals("Applicant is too young to fly", Message.getMessage());
     }
 

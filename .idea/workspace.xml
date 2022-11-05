@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d37ea571-1555-40a2-aa85-aab6fcd77b9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Week6/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Week6/PassengerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2H3yX1uPXqvfrBNGXAgngqIGdxT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="JUnit.PassengerTest">
+    <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testTitleFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testTitleFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testTitleMr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testTitleMr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testTitleMrs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testTitleMrs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testTitleMs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.PassengerTest" />
+      <option name="METHOD_NAME" value="testTitleMs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PassengerTest" />
+        <item itemvalue="JUnit.PassengerTest.testTitleMr" />
+        <item itemvalue="JUnit.PassengerTest.testTitleMrs" />
+        <item itemvalue="JUnit.PassengerTest.testTitleMs" />
+        <item itemvalue="JUnit.PassengerTest.testTitleFail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d37ea571-1555-40a2-aa85-aab6fcd77b9c" name="Changes" comment="" />
+      <created>1667528102924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667528102924</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added scanner">
+      <created>1667528712558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667528712558</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added scanner">
+      <created>1667528724885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667528724885</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added scanner">
+      <created>1667528863822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667528863822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added scanner">
+      <created>1667528873979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667528873979</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Stored title">
+      <created>1667529283778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667529283778</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added new objects">
+      <created>1667578909621</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667578909621</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added new objects">
+      <created>1667591407460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667591407460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added new tests">
+      <created>1667592627327</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667592627327</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finished Title test">
+      <created>1667612908931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667612908931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added getters ans setters">
+      <created>1667662930473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667662930473</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added getters and setters">
+      <created>1667668250862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667668250862</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Replacing Scanners with getters and setters">
+      <created>1667669864388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667669864388</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Replaced scan with getters and setters">
+      <created>1667670337539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667670337539</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Wrote All Title Tests">
+      <created>1667673964594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667673964594</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Name tests">
+      <created>1667676240124</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667676240124</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ADDED ID Test">
+      <created>1667676799007</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667676799007</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FInished all tests">
+      <created>1667681200893</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667681200893</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added comments">
+      <created>1667682504789</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667682504789</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Scanner" />
+    <MESSAGE value="Added scanner" />
+    <MESSAGE value="Stored title" />
+    <MESSAGE value="Added new objects" />
+    <MESSAGE value="Added new tests" />
+    <MESSAGE value="Finished Title test" />
+    <MESSAGE value="Added getters ans setters" />
+    <MESSAGE value="Added getters and setters" />
+    <MESSAGE value="Replacing Scanners with getters and setters" />
+    <MESSAGE value="Replaced scan with getters and setters" />
+    <MESSAGE value="Wrote All Title Tests" />
+    <MESSAGE value="Added Name tests" />
+    <MESSAGE value="ADDED ID Test" />
+    <MESSAGE value="FInished all tests" />
+    <MESSAGE value="Added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Week6/PassengerTest.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CICD_Ph_master$PassengerTest.ic" NAME="PassengerTest Coverage Results" MODIFIED="1667683512325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Week6.*</FILTER>
+    </SUITE>
+  </component>
+</project>
