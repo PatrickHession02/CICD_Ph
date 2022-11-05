@@ -3,10 +3,10 @@ package Week6;
 import java.util.Scanner;
 
 public class Passenger {
-  Scanner input = new Scanner(System.in);
+ public Scanner input = new Scanner(System.in);
 
   public String Title(){
-    String Title = input.next();
+     String Title = input.next();
     return Title;
   }
 

@@ -9,14 +9,32 @@ import java.util.Scanner;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PassengerTest {
-
+    Passenger scanner;
     @BeforeEach
-    Scanner myScan = new Scanner(System.in);
+   void setup() {
+     scanner = new Passenger();
+    }
 @Test
-void testTitle() {}
+void testTitleMr() {
+    assertEquals("Mr", scanner.Title());
+}
+@Test
+void testTitleMrs() {
+        assertEquals("Mrs", scanner.Title());
+    }
 
     @Test
-void testName(){}
+    void testTitleMs() {
+        assertEquals("Ms", scanner.Title());
+    }
+
+
+
+
+    @Test
+void testName(){
+        assertEquals(" ");
+    }
 
     @Test
     void testNumber(){}
