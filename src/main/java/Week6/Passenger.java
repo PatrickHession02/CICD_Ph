@@ -25,11 +25,24 @@ public class Passenger {
     return Title;
   }
 
-    public String setTitle(String myTitle){
-     if("Mr".equalsIgnoreCase(myTitle) || "Ms".equalsIgnoreCase(myTitle) || "Mrs".equalsIgnoreCase(myTitle))
-     { 
-        return Title;
-     }
+    public String setTitle(String myTitle) {
+        if ("Mr".equalsIgnoreCase(myTitle) || "Ms".equalsIgnoreCase(myTitle) || "Mrs".equalsIgnoreCase(myTitle)) {
+            this.Title = myTitle;
+        } else {
+            throw new IllegalArgumentException("Entered invalid title.");
+        }
+    }
+
+    public String getName() {return Name;}
+
+
+
+
+
+
+
+
+
 
   public String Name(){
     String Name = input.next();
