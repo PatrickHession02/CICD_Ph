@@ -1,24 +1,22 @@
 package Week6;
 
-import java.util.Scanner;
+
 
 public class Passenger {
     String Title;
     String Name;
     int Age;
-    long phoneNum;
+    long Phone;
     long ID;
 
-    public Scanner input = new Scanner(System.in);
 
-
-    public Passenger(String Title, String Name, int Age, long ID, long phoneNum)   //constructor
+    public Passenger(String Title, String Name, int Age, long ID, long Phone)   //constructor
     {
         setTitle(Title);
         setName(Name);
         setAge(Age);
         setID(ID);
-        setPhoneNum(phoneNum);
+        setPhone(Phone);
 
     }
 
@@ -26,7 +24,7 @@ public class Passenger {
         return Title;
     }
 
-    public String setTitle(String myTitle) {
+    public void  setTitle(String myTitle) {
         if ("Mr".equalsIgnoreCase(myTitle) || "Ms".equalsIgnoreCase(myTitle) || "Mrs".equalsIgnoreCase(myTitle)) {
             this.Title = myTitle;
         } else {
@@ -59,13 +57,13 @@ public class Passenger {
         }
     }
 
-    public long getphoneNum() {
-        return phoneNum;
+    public long getPhone() {
+        return Phone;
     }
 
-    public void setphoneNum(long phoneNum) {
-        if (String.valueOf(phoneNum).length() >= 7) {
-            this.phoneNum = phoneNum;
+    public void setPhone(long Phone) {
+        if (String.valueOf(Phone).length() >= 7) {
+            this.Phone = Phone;
         } else {
             throw new IllegalArgumentException("Invalid Phone Number");
         }
