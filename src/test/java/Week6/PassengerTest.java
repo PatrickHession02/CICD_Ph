@@ -45,17 +45,21 @@ void testNameSuccess(){
     }
     @Test
     void testNameFailure(){
-        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",20,1703021289, 0870221);
+        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",20,1703021289, 0870221);});
         assertEquals("Entered invalid Name", Message.getMessage());
     }
     @Test
         void testIDSuccess(){
             Passenger customer = new Passenger("Mr","Patrick",20,17, 087123277);
-            assertEquals(", customer.getID());
+            assertEquals(1703021289, customer.getID());
         }
+    @Test
+    void testIDFailure(){
+        Exception Message = assertThrows(IllegalArgumentException.class, () -> {new Passenger("Mr","Patrick",20,1703, 0870221);});
+        assertEquals("Invalid ID entered", Message.getMessage());
     }
 
-                    @Test
+
                     void testAge(){}
 
     @AfterEach
